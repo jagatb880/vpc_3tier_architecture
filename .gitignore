@@ -1,0 +1,59 @@
+# Global Terraform ignore
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.terraform.lock.hcl
+.terraform/
+*.terraform.tfstate.lock.info
+darwin_amd64/
+
+# Global ignore for local override files
+override.tf
+override.tf.json
+
+# Global ignore for .tfvars files that are intended to be overridden
+*.auto.tfvars
+*.auto.tfvars.json
+*.tfvars
+
+# Global ignore for crash log files
+crash.log
+
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn
+yarn-error.log
+.pnp/
+.yarn-integrity
+node_modules/
+
+# dotenv environment variables file
+.env
+
+# vscode settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
