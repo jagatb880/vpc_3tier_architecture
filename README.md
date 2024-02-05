@@ -3,4 +3,4 @@
 <h4>The three-tier architecture is the most popular implementation of a multi-tier architecture and consists of a single presentation tier, logic tier and data tier</h4>
 <h4>It is a viable choice for software projects to be started quickly</h4>
 <p></p>
-![Local Image](Three-tier-architecture.png)
+![Local Image](three_tier_architecture.png)
