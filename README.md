@@ -2,4 +2,30 @@
 <p></p>
 <h4>The three-tier architecture is the most popular implementation of a multi-tier architecture and consists of a single presentation tier, logic tier and data tier</h4>
 <h4>It is a viable choice for software projects to be started quickly</h4>
-![Local Image](three_tier_architecture.png)
+
+### Resources need to be created / installed :
+
+- Custom VPC
+
+- 2 Subnets (Public)
+
+- 1 Subnet (Private)
+
+- 2 EC2 Instances
+
+- Security Group
+
+- Elastic IP
+
+- NAT Gateway
+
+- Internet Gateway
+
+- Route Table
+
+- Application Load Balancer
+
+- Apache Webserver
+
+- MySQL DB
+  ![Local Image](three_tier_architecture.png)
