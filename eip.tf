@@ -1,4 +1,4 @@
 resource "aws_eip" "myeip" {
-  //instance = aws_instance.web.id
-  vpc = true
+  instance = aws_instance.web[count.index].id
+  count    = 2
 }

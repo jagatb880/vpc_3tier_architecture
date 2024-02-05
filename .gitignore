@@ -15,6 +15,7 @@ override.tf.json
 *.auto.tfvars
 *.auto.tfvars.json
 *.tfvars
+*ubuntu-key.pem
 
 # Global ignore for crash log files
 crash.log
